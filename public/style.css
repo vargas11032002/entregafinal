@@ -1,0 +1,55 @@
+*{
+    color: aliceblue;
+}
+body{
+    background-image: url("https://marketplace.canva.com/EAE9oAp-Byc/1/0/1600w/canva-fondo-de-pantalla-escritorio-pc-abstracto-moderno-degradado-negro-PriNvkfDEzU.jpg");
+}
+.nav {
+    background-color: rgb(105, 107, 107);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav ul {
+    display: flex;
+    flex-direction: row;
+    padding: 0; 
+}
+
+.nav li {
+    list-style: none;
+    margin-right: 10px;
+    transition: .5s ease;
+
+}
+.nav li:hover{
+    background-color: antiquewhite;
+}
+li a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 70%;
+    max-height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.inicio{
+    max-width: 100%;
+    max-height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    height: 100vh; 
+}
+
+.container p {
+    align-self: flex-start; 
+    margin-top: 10px; 
+}
